@@ -58,6 +58,21 @@ jobs:
               "<style>.evidence-note h3:first-child{margin-top:0}</style></head>",
               1,
           )
+          label_by_title = {
+              "苏州市政府法律顾问助理": "专业经历",
+              "姑苏区政府法律顾问助理": "专业经历",
+              "第二届苏州市行政复议委员会委员": "社会任职",
+              "苏州市教育系统法律顾问团成员": "社会任职",
+              "姑苏区人民法院中立评估员": "社会任职",
+              "政府法律服务优秀案例": "个人荣誉",
+              "优秀律师": "个人荣誉",
+              "优秀共产党员": "个人荣誉",
+          }
+          for title, category in label_by_title.items():
+              html = html.replace(
+                  f"<h3>{title}</h3>",
+                  f"<span>{category}</span><h3>{title}</h3>",
+              )
           homepage.write_text(html, encoding="utf-8")
 
           for page in Path("site").rglob("*.html"):
