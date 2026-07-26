@@ -43,6 +43,7 @@ jobs:
               "2022—2023年度",
           ):
               html = html.replace(f"<span>{label}</span>", "")
+              html = html.replace(label, "")
           html = html.replace(
               "参与行政执法案卷评查反馈；该表述仅作2023年历史记录。",
               "参与行政执法案卷评查反馈；身份与事项以政府公开报道为核验依据。",
