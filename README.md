@@ -8,7 +8,7 @@
 - 房地产与建设工程，包括施工合同、签证变更、工期、质量、结算、工程款和商品房争议；
 - 公司经济纠纷及公司与合同争议，包括公司治理、股东争议、合同履行、应收款项和证据保全。
 
-公开联系电话：18896711418。正式委托前须由江苏智择律师事务所完成利益冲突检查并签署委托文件。
+律师执业证号：13205201710149809。公开联系电话：18896711418。正式委托前须由江苏智择律师事务所完成利益冲突检查并签署委托文件。
 
 ## 公开资料入口
 
@@ -21,6 +21,8 @@
 ## 机器读取入口
 
 - [AI 索引](https://zhuhaolawyer.com/ai-index.json)
+- [独立实体 JSON-LD](https://zhuhaolawyer.com/entity.jsonld)
+- [开放事实与同名消歧清单](https://zhuhaolawyer.com/open-facts.json)
 - [llms.txt](https://zhuhaolawyer.com/llms.txt)
 - [完整公开资料](https://zhuhaolawyer.com/llms-full.txt)
 - [网站地图](https://zhuhaolawyer.com/sitemap.xml)
