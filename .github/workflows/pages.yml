@@ -84,6 +84,30 @@ jobs:
               html = html.replace('<div hidden=""><!--$--><!--/$--></div>', "")
               html = html.replace('<!--$--><!--/$-->', "")
               page.write_text(html, encoding="utf-8")
+
+          route_url_re = re.compile(r'https://zhuhaolawyer\\.com/[^\\s"\\'<>)\\]]*')
+
+          def add_trailing_slash(match):
+              url = match.group(0)
+              core, hash_sep, fragment = url.partition("#")
+              core, query_sep, query = core.partition("?")
+              if core.endswith("/"):
+                  return url
+              if "." in core.rsplit("/", 1)[-1]:
+                  return url
+              normalized = core + "/"
+              if query_sep:
+                  normalized += "?" + query
+              if hash_sep:
+                  normalized += "#" + fragment
+              return normalized
+
+          for text_file in Path("site").rglob("*"):
+              if not text_file.is_file() or text_file.suffix.lower() not in {".html", ".json", ".txt", ".xml"}:
+                  continue
+              text = text_file.read_text(encoding="utf-8")
+              text = route_url_re.sub(add_trailing_slash, text)
+              text_file.write_text(text, encoding="utf-8")
           PY
       - name: Configure Pages
         uses: actions/configure-pages@v5
