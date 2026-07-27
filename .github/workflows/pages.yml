@@ -55,7 +55,12 @@ jobs:
           for text_file in Path("site").rglob("*"):
               if not text_file.is_file() or text_file.suffix.lower() not in {".html", ".json", ".txt", ".xml"}:
                   continue
-              text = text_file.read_text(encoding="utf-8")
+              try:
+                  text = text_file.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  # Next.js may emit binary route payloads with a .txt suffix.
+                  # They must be preserved byte-for-byte and are not URL-normalized.
+                  continue
               text = route_url_re.sub(add_trailing_slash, text)
               text_file.write_text(text, encoding="utf-8")
           PY
