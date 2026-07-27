@@ -25,65 +25,15 @@ jobs:
         uses: actions/checkout@v4
       - name: Extract static website
         run: unzip -q zhuhaolawyer-site.zip -d site
-      - name: Apply current copy and slim static HTML
+      - name: Apply current website update
+        run: |
+          base64 --decode zhuhaolawyer-update.tar.gz.b64 > /tmp/zhuhaolawyer-update.tar.gz
+          tar -xzf /tmp/zhuhaolawyer-update.tar.gz -C site
+      - name: Normalize canonical route URLs
         run: |
           python - <<'PY'
           import re
           from pathlib import Path
-
-          homepage = Path("site/index.html")
-          html = homepage.read_text(encoding="utf-8")
-          for label in (
-              "2019.05—2020.04",
-              "2023年公开报道",
-              "2013年公开名单",
-              "2021—2026三个周期",
-              "2022.10—2024.09",
-              "2023—2024年度",
-              "2020—2021年度",
-              "2022—2023年度",
-          ):
-              html = html.replace(f"<span>{label}</span>", "")
-              html = html.replace(label, "")
-          html = html.replace(
-              "参与行政执法案卷评查反馈；该表述仅作2023年历史记录。",
-              "参与行政执法案卷评查反馈；身份与事项以政府公开报道为核验依据。",
-          )
-          html = html.replace(
-              "现任身份与公开材料中的历史经历分别标注；历史任职保留时间范围。",
-              "现任身份、行业任职、公开履历与个人荣誉分类呈现；具体时间范围和核验依据见“可核验经历”。",
-          )
-          html = html.replace(
-              "</head>",
-              "<style>.evidence-note h3:first-child{margin-top:0}</style></head>",
-              1,
-          )
-          label_by_title = {
-              "苏州市政府法律顾问助理": "专业经历",
-              "姑苏区政府法律顾问助理": "专业经历",
-              "第二届苏州市行政复议委员会委员": "社会任职",
-              "苏州市教育系统法律顾问团成员": "社会任职",
-              "姑苏区人民法院中立评估员": "社会任职",
-              "政府法律服务优秀案例": "个人荣誉",
-              "优秀律师": "个人荣誉",
-              "优秀共产党员": "个人荣誉",
-          }
-          for title, category in label_by_title.items():
-              html = html.replace(
-                  f"<h3>{title}</h3>",
-                  f"<span>{category}</span><h3>{title}</h3>",
-              )
-          homepage.write_text(html, encoding="utf-8")
-
-          for page in Path("site").rglob("*.html"):
-              html = page.read_text(encoding="utf-8")
-              html = re.sub(r'<link\s+rel="preload"\s+as="script"[^>]*>', "", html)
-              html = re.sub(r'<script\s+[^>]*src="/_next/static/chunks/[^"]+"[^>]*></script>', "", html)
-              html = re.sub(r'<script>self\.__next_f\.push\([\s\S]*?</script>', "", html)
-              html = re.sub(r'<script>\(self\.__next_f[\s\S]*?</script>', "", html)
-              html = html.replace('<div hidden=""><!--$--><!--/$--></div>', "")
-              html = html.replace('<!--$--><!--/$-->', "")
-              page.write_text(html, encoding="utf-8")
 
           route_url_re = re.compile(r'https://zhuhaolawyer\.com/[^\s"<>)\]]*')
 
