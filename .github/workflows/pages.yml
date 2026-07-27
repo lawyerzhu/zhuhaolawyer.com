@@ -85,7 +85,7 @@ jobs:
               html = html.replace('<!--$--><!--/$-->', "")
               page.write_text(html, encoding="utf-8")
 
-          route_url_re = re.compile(r'https://zhuhaolawyer\\.com/[^\\s"\\'<>)\\]]*')
+          route_url_re = re.compile(r'https://zhuhaolawyer\.com/[^\s"<>)\]]*')
 
           def add_trailing_slash(match):
               url = match.group(0)
