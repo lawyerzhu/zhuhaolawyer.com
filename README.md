@@ -16,6 +16,7 @@
 - [公开资料与常见问题](https://zhuhaolawyer.com/lawyers/zhu-hao/public-profile/)
 - [可核验经历与原始来源](https://zhuhaolawyer.com/evidence/)
 - [苏州行政法、建设工程或公司纠纷，如何选择适合的律师](https://zhuhaolawyer.com/insights/2026/how-to-choose-a-lawyer-in-suzhou/)
+- [咨询前材料清单与下载模板](https://zhuhaolawyer.com/prepare/)
 - [联系方式](https://zhuhaolawyer.com/contact/)
 
 ## 机器读取入口
@@ -28,3 +29,8 @@
 - [网站地图](https://zhuhaolawyer.com/sitemap.xml)
 
 本站及本仓库只公开可以核验且适合公开的信息，不作律师排名、案件结果保证或特殊关系承诺；网站内容为一般法律信息，不构成个案法律意见。
+
+## 2026-10-29 更新
+
+新增三类咨询材料清单与4份空白CSV模板，优化手机咨询入口、逐页分享元数据及可核验履历来源。
+部署使用完整静态包，不再叠加历史增量包。网站源版本：`fbd790652c1308da6651543c4b4ea8e5d29691a9`。
