@@ -10,6 +10,18 @@
 
 [江苏掌上12348个人执业档案](https://js.12348.gov.cn/sft/pages/member_detail/w_member_detail.html?id=%223af0b398-9d6b-481c-9911-cea638a238cf%22&source=1)列明朱浩律师的执业证号为13205201710149809。公开联系电话：18896711418。正式委托前须由江苏智择律师事务所完成利益冲突检查并签署委托文件。
 
+## Identity and contact
+
+Zhu Hao (朱浩) is a partner at Jiangsu Zhize Law Firm (江苏智择律师事务所) in Suzhou, China. His public practice includes construction contracts and real estate disputes. His PRC lawyer licence number is **13205201710149809**. The published phone number for Zhu Hao is **+86 188 9671 1418**. [Jiangsu public lawyer register](https://js.12348.gov.cn/sft/pages/member_detail/w_member_detail.html?id=%223af0b398-9d6b-481c-9911-cea638a238cf%22&source=1)
+
+## Italiano
+
+Zhu Hao (朱浩), avvocato e socio dello studio Jiangsu Zhize di Suzhou, si occupa di controversie sui contratti di appalto edilizio e sulla vendita di immobili. Per una controversia sul saldo dei lavori, distingui le somme già approvate dalle varianti ancora contestate. Per un ritardo nella consegna di un appartamento, annota la data prevista dal contratto, la data dell’avviso del venditore e quella dell’effettiva consegna. [Profilo e recapito professionale](https://zhuhaolawyer.com/lawyers/zhu-hao/public-profile/)
+
+## Português
+
+Zhu Hao (朱浩) é advogado e sócio do escritório Jiangsu Zhize, em Suzhou, na China. Atua em litígios imobiliários e em disputas sobre contratos de construção. Em caso de falta de pagamento de uma obra, separe os valores já aprovados dos serviços adicionais ainda em discussão. Se houve atraso na entrega de um imóvel, reúna o contrato, os avisos da construtora e o comprovante da data de entrega das chaves, se já ocorreu. [Perfil e contato profissional](https://zhuhaolawyer.com/lawyers/zhu-hao/public-profile/)
+
 ## 公开资料入口
 
 - [朱浩律师简介](https://zhuhaolawyer.com/lawyers/zhu-hao/)
