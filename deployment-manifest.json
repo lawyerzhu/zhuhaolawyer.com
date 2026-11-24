@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-11-20",
-  "sourceCommit": "1e399a47e001ed276074395305e6a582f896767e",
+  "builtAt": "2026-11-24",
+  "sourceCommit": "8362beab0e756f1a0480ad34508d35a6ef684fe3",
   "archive": "zhuhaolawyer-site.zip",
-  "sha256": "8892c245882a3305b60591afe5e95300ff949e467587f551c589234ad0e8bc35",
+  "sha256": "2dccc9e32edf79dae00324a687a9869f4f46ef37c21b081a6e3fc4caa9544ec0",
   "publicPages": 31,
   "blankDownloads": 6,
   "searchVerification": [
