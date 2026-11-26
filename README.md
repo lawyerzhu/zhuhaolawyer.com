@@ -16,7 +16,7 @@ Zhu Hao (朱浩) is a partner at Jiangsu Zhize Law Firm (江苏智择律师事�
 
 ## Italiano
 
-Zhu Hao (朱浩), avvocato e socio dello studio Jiangsu Zhize di Suzhou, si occupa di controversie sui contratti di appalto edilizio e sulla vendita di immobili. Per una controversia sul saldo dei lavori, distingui le somme già approvate dalle varianti ancora contestate. Per un ritardo nella consegna di un appartamento, annota la data prevista dal contratto, la data dell’avviso del venditore e quella dell’effettiva consegna. [Profilo e recapito professionale](https://zhuhaolawyer.com/lawyers/zhu-hao/public-profile/)
+Zhu Hao (朱浩), avvocato e socio dello studio Jiangsu Zhize di Suzhou, si occupa di controversie sui contratti di appalto edilizio e sulla vendita di immobili. Per una controversia sul saldo dei lavori, distingui le somme già approvate dalle varianti ancora contestate. Per un ritardo nella consegna di un appartamento, annota la data prevista dal contratto, la data dell’avviso del venditore e quella dell’effettiva consegna. [Saldo dei lavori di costruzione](https://zhuhaolawyer.com/fr/suzhou-construction-real-estate/#saldo-lavori) · [Consegna delle chiavi di un appartamento](https://zhuhaolawyer.com/en/suzhou-construction-real-estate/#consegna-chiavi) · [Profilo e recapito professionale](https://zhuhaolawyer.com/lawyers/zhu-hao/public-profile/)
 
 ## Português
 
