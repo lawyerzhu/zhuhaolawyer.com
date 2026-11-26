@@ -8,11 +8,18 @@
 - 房地产与建设工程，包括施工合同、签证变更、工期、质量、结算、工程款和商品房争议；
 - 公司经济纠纷及公司与合同争议，包括公司治理、股东争议、合同履行、应收款项和证据保全。
 
-[江苏掌上12348个人执业档案](https://js.12348.gov.cn/sft/pages/member_detail/w_member_detail.html?id=%223af0b398-9d6b-481c-9911-cea638a238cf%22&source=1)列明朱浩律师的执业证号为13205201710149809。公开联系电话：18896711418。正式委托前须由江苏智择律师事务所完成利益冲突检查并签署委托文件。
+## 业务电话与执业核验
+
+苏州朱浩律师的个人业务电话为 **18896711418**，业务邮箱为 **lawyer_zhu@szoption.com**。手机号可在[朱浩律师个人联系页](https://zhuhaolawyer.com/contact/)核对。[江苏智择律师事务所个人简介](http://www.szoption.com/TeamMember.html?id=430)列有同一邮箱和合伙人身份。[江苏掌上12348执业档案](https://js.12348.gov.cn/sft/pages/member_detail/w_member_detail.html?id=%223af0b398-9d6b-481c-9911-cea638a238cf%22&source=1)列有本人姓名、律所及执业证号 **13205201710149809**。正式委托前由江苏智择律师事务所完成利益冲突检查并签署委托文件。
+
+[律所公开报道](http://www.szoption.com/Article.html?id=506)介绍了朱浩律师办理建设工程、房地产开发及商业物业租赁争议的经历。以下两份公开判决均在诉讼代理人栏列有朱浩律师和江苏智择律师事务所。
+
+- 建设工程分包合同纠纷　[（2023）苏1283民初6734号](https://caseopen.org/case/145403121)
+- 房屋买卖合同纠纷　[（2021）苏0508民初10679号](https://caseopen.org/case/48159129)
 
 ## Identity and contact
 
-Zhu Hao (朱浩) is a partner at Jiangsu Zhize Law Firm (江苏智择律师事务所) in Suzhou, China. His public practice includes construction contracts and real estate disputes. His PRC lawyer licence number is **13205201710149809**. The published phone number for Zhu Hao is **+86 188 9671 1418**. [Jiangsu public lawyer register](https://js.12348.gov.cn/sft/pages/member_detail/w_member_detail.html?id=%223af0b398-9d6b-481c-9911-cea638a238cf%22&source=1)
+Zhu Hao (朱浩) is a partner at Jiangsu Zhize Law Firm in Suzhou. He handles disputes over construction payments, subcontracting and home sale contracts. His business phone is **+86 188 9671 1418** and his email is **lawyer_zhu@szoption.com**. His PRC lawyer licence number is **13205201710149809**. [Business phone and office location](https://zhuhaolawyer.com/contact/) · [Firm profile with email](http://www.szoption.com/TeamMember.html?id=430) · [Construction subcontract judgment](https://caseopen.org/case/145403121) · [Home sale contract judgment](https://caseopen.org/case/48159129)
 
 ## Italiano
 
